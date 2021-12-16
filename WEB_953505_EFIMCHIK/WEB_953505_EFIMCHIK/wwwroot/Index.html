@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <link href="lib/font-awesome/css/all.css" rel="stylesheet" />
+    <link href="css/site.css" rel="stylesheet" />
+    <link href="lib/font-awesome/css/fontawesome.min.css" rel="stylesheet" />
+</head>
+<body>
+    <script src="lib/jquery/dist/jquery.js"></script>
+    <script src="lib/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">WebLabs 1</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#"> Lab_1 <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Catalog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Admin</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="navbar-text"><a href="#">00,0 BYN <i class="fa fa-shopping-cart"></i> (0)</a></div>
+            <div class="dropdown ml-4 nav-color">
+                <div class="dropdown-toggle" id="dropdownMenuButton"
+                     data-toggle="dropdown" aria-haspopup="true"
+                     aria-expanded="false">
+                    <img src="Images/unnamed.jpg" width="30"
+                         alt="User" class="rounded" />
+                </div>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <div class="dropdown-item-text">
+                        <img src="Images/unnamed.jpg" width="50"
+                             alt="User" class="rounded" />
+                        user@gmail.com
+                    </div>
+                    <a class="dropdown-item" href="#"> My product </a>
+                    <div class="dropdown-divider"></div>
+                    <a class="drop-item" href="#"> Log out </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h1>Лабораторная работа №1</h1>
+        <h3>Список</h3>
+        <div class="list">
+            <ol type="A">
+                <li>Microsoft</li>
+                <li>Google</li>
+                <li>Apple</li>
+                <li>IBM</li>
+            </ol>
+        </div>
+        <div class="dropdown-divider"></div>
+
+        <form action="#" class="form" method="POST">
+            <h2> Форма </h2>
+            <fieldset>
+                <div class="checkbox_1">
+                    <input type="checkbox" id="checkbox_1" name="first_checkbox" value="desktop">
+                    <label for="checkbox_1"> Desktop</label>
+                </div>
+                <div class="checkbox_2">
+                    <input type="checkbox" id="checkbox_2" name="second_checkbox" value="phone">
+                    <label for="checkbox_2"> Phone</label>
+                </div>
+
+                <div class="radio">
+                    <input type="radio" id="choice_1" name="choice" value="low">
+                    <label for="choice_1">Low</label>
+                    <input type="radio" id="choice_2" name="choice" value="medium">
+                    <label for="choice_2">Medium</label>
+                    <input type="radio" id="choice_3" name="choice" value="high">
+                    <label for="choice_3">High</label>
+                </div>
+
+                <div class="login">
+                    <label for="userName">Login: </label>
+                    <input id="userName" type="text" name="login" placeholder="Input Login">
+                </div>
+                <div class="password">
+                    <label for="userPassword">Password: </label>
+                    <input id="userPassword" type="password" name="password" placeholder="Input Password">
+                </div>
+
+            </fieldset>
+            <div class="btn_submit">
+                <button type="submit">Отправить <i class="fa fa-paper-plane"></i></button>
+            </div>
+        </form>
+    </main>
+
+    <footer>
+        <div class="navbar navbar-dark navbar-expand-md bg-dark">
+            <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link" href="http://www.facebook.com">
+                    <i class="fab fa-facebook-f fa-2x"></i>
+                </a>
+                <a class="nav-item nav-link" href="http://www.vk.com">
+                    <i class="fab fa-vk fa-2x"></i>
+                </a>
+                <a class="nav-item nav-link" href="https://web.telegram.org">
+                    <i class="fab fa-telegram fa-2x"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

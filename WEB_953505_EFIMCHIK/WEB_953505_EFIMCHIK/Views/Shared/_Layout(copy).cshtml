@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - lab_2</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link href="css/site.css" rel="stylesheet" />
+    <link href="~/lib/font-awesome/css/all.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" asp-action="Index" asp-controller="HomeController">
+                WebLabs_1
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" asp-controller="Home" asp-action="Index"> Lab 2 </a>
+                <a class="nav-item nav-link" asp-controller="Product" asp-action="Index"> Catalog </a>
+                <a class="nav-item nav-link" asp-area="Admin" asp-page="/Index"> Admin </a>
+            </div>
+
+            <a asp-controller="Cart" asp-action="Index" class="navbar-text" ml-auto> 00,0 BYN <i class="fa fa-shopping-cart"></i> (0)</a>
+            <div class="dropdown ml-4 nav-color">
+                <div class="dropdown-toggle" id="dropdownMenuButton"
+                     data-toggle="dropdown" aria-haspopup="true"
+                     aria-expanded="false">
+                    <img src="images/unnamed.jpg" width="30"
+                         alt="User" class="rounded" />
+                </div>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <div class="dropdown-item-text">
+                        <img src="images/unnamed.jpg" width="50"
+                             alt="User" class="rounded" />
+                        user@gmail.com
+                    </div>
+                    <a class="dropdown-item" href="#"> My product </a>
+                    <div class="dropdown-divider"></div>
+                    <a class="drop-item" href="#"> Log out </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        @RenderBody()
+    </main>
+
+    <footer>
+        <div class="navbar navbar-dark navbar-expand-md bg-dark">
+            <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link" href="http://www.facebook.com">
+                    <i class="fab fa-facebook-f fa-2x"></i>
+                </a>
+                <a class="nav-item nav-link" href="http://www.vk.com">
+                    <i class="fab fa-vk fa-2x"></i>
+                </a>
+                <a class="nav-item nav-link" href="https://web.telegram.org">
+                    <i class="fab fa-telegram fa-2x"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
