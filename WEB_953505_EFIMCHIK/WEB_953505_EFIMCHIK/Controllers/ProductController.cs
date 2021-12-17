@@ -3,34 +3,45 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using WEB_953505_EFIMCHIK.Data;
 using WEB_953505_EFIMCHIK.Entities;
+using WEB_953505_EFIMCHIK.Extensions;
 using WEB_953505_EFIMCHIK.Models;
 
 namespace WEB_953505_EFIMCHIK.Controllers
 {
     public class ProductController : Controller
     {
-        List<Auto> _cars;
-        List<AutoGroup> _autoGroups;
+        ApplicationDbContext _context;
+        //List<Auto> _cars;
+        //List<AutoGroup> _autoGroups;
         int _pageSize;
-        public ProductController()
+        public ProductController(ApplicationDbContext context)
         {
             _pageSize = 3;
-            SetupData();
+            _context = context;
+            //SetupData();
         }
 
+        [Route("Catalog")]
+        [Route("Catalog/Page_{pageNo}")]
         public IActionResult Index(int? group, int pageNo=1)
         {
-            var autoFiltered = _cars.Where(d => !group.HasValue ||
+            var autoFiltered = _context.Cars.Where(d => !group.HasValue ||
             d.AutoGroupId == group.Value);
 
-            ViewData["Groups"] = _autoGroups;
+            ViewData["Groups"] = _context.AutoGroups;
             ViewData["CurrentGroup"] = group ?? 0;
 
-            return View(ListViewModel<Auto>.GetModel(autoFiltered, pageNo, _pageSize));
+            var model = ListViewModel<Auto>.GetModel(autoFiltered, pageNo, _pageSize);
+            if (Request.IsAjaxRequest())
+                return PartialView("_listpartial", model);
+            else
+                return View(model);
+                //return View(ListViewModel<Auto>.GetModel(autoFiltered, pageNo, _pageSize));
         }
 
-        private void SetupData()
+        /*private void SetupData()
         {
             _autoGroups = new List<AutoGroup>
             {
@@ -58,6 +69,6 @@ namespace WEB_953505_EFIMCHIK.Controllers
                 Description="Б/У, год: 2015, объем: 3.0, пробег: 56000, расход 15л/100km",
                 Price=28000, AutoGroupId=2, Image="AUDI_A6_C7_Allroad.jpg"}
             };
-        }
+        }*/
     }
 }

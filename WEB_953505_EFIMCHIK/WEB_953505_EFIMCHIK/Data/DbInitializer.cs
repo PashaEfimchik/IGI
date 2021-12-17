@@ -44,6 +44,43 @@ namespace WEB_953505_EFIMCHIK.Data
                 admin = await userManager.FindByEmailAsync("admin@gmail.com");
                 await userManager.AddToRoleAsync(admin, "admin");
             }
+
+            if (!context.AutoGroups.Any())
+            {
+                context.AutoGroups.AddRange(
+                    new List<AutoGroup>
+                    {
+                        new AutoGroup {GroupName="Седан"},
+                        new AutoGroup {GroupName="Универсал"},
+                        new AutoGroup {GroupName="Внедорожник"},
+                        new AutoGroup {GroupName="Купе"}
+                    });
+                await context.SaveChangesAsync();
+            }
+
+            if (!context.Cars.Any())
+            {
+                context.Cars.AddRange(
+                    new List<Auto>
+                    {
+                        new Auto{AutoName="Audi A8 D4",
+                            Description="Б/У, год: 2015, объем: 4.0, пробег: 110000, расход 20л/100km",
+                            Price=21000, AutoGroupId=1, Image="AUDI_A8_D4.jpg"},
+
+                        new Auto{AutoName="Volkswagen Touareg |||",
+                            Description="Новый, год: 2020, объем: 3.0, пробег: 7200, расход 10л/100km",
+                            Price=30000, AutoGroupId=3, Image="VW_Touareg3.jpg"},
+
+                        new Auto{AutoName="Porsche 911 GT3 992",
+                            Description="Новый, год: 2021, объем: 4.0, пробег: 1000, расход 35л/100km",
+                            Price=280000, AutoGroupId=4, Image="PORSCHE_911.jpg"},
+
+                        new Auto{AutoName="Audi A6 C7 Allroad",
+                            Description="Б/У, год: 2015, объем: 3.0, пробег: 56000, расход 15л/100km",
+                            Price=28000, AutoGroupId=2, Image="AUDI_A6_C7_Allroad.jpg"}
+                    });
+                await context.SaveChangesAsync();
+            }
         }
     }
 }

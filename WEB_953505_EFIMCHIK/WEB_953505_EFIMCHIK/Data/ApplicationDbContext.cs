@@ -9,6 +9,8 @@ namespace WEB_953505_EFIMCHIK.Data
 {
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
+        public DbSet<Auto> Cars { get; set; }
+        public DbSet<AutoGroup> AutoGroups { get; set; }
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
         {
