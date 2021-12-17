@@ -26,8 +26,15 @@ using WEB_953505_EFIMCHIK.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "C:\Users\Павел\Desktop\Labs\5_sem\IGI\WEB_953505_EFIMCHIK\WEB_953505_EFIMCHIK\Views\_ViewImports.cshtml"
+using WEB_953505_EFIMCHIK.Entities;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"fd5a3d0671076e6bb5630f52d19a2f85e86d3a2a", @"/Views/Shared/Components/Cart/Default.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"eebeffdb1404c6c1b91687ddd70915ab9170dbe0", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"db5ef68e215694f2c2ffb7fc71504c591e5c101d", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared_Components_Cart_Default : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-controller", "Cart", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -57,7 +64,7 @@ using WEB_953505_EFIMCHIK.Models;
         #pragma warning disable 1998
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fd5a3d0671076e6bb5630f52d19a2f85e86d3a2a4170", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fd5a3d0671076e6bb5630f52d19a2f85e86d3a2a4391", async() => {
                 WriteLiteral(" 00,0 BYN <i class=\"fa fa-shopping-cart\"></i> (0)");
             }
             );
