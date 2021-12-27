@@ -1,0 +1,7 @@
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="/" Path="C:\Users\Павел\Desktop\Labs\5_sem\IGI\LAB_WEB_953505_EFIMCHIK\WEB_953505_EFIMCHIK.Blazor\Client\bin\Debug\net5.0\wwwroot\" />
+  <ContentRoot BasePath="/" Path="C:\Users\Павел\Desktop\Labs\5_sem\IGI\LAB_WEB_953505_EFIMCHIK\WEB_953505_EFIMCHIK.Blazor\Client\obj\Debug\net5.0\scopedcss\bundle\" />
+  <ContentRoot BasePath="/" Path="C:\Users\Павел\Desktop\Labs\5_sem\IGI\LAB_WEB_953505_EFIMCHIK\WEB_953505_EFIMCHIK.Blazor\Client\wwwroot\" />
+  <ContentRoot BasePath="/Identity" Path="C:\Users\Павел\.nuget\packages\microsoft.aspnetcore.identity.ui\5.0.12\staticwebassets\V4\" />
+  <ContentRoot BasePath="_content/WEB_953505_EFIMCHIK" Path="C:\Users\Павел\Desktop\Labs\5_sem\IGI\LAB_WEB_953505_EFIMCHIK\WEB_953505_EFIMCHIK\WEB_953505_EFIMCHIK\wwwroot\" />
+</StaticWebAssets>

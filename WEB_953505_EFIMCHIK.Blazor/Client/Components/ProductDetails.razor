@@ -1,0 +1,23 @@
+﻿@if (Car != null)
+{
+    <img src="@imageSrc" class="img-thumbnail" width="150" />
+    <div>
+        <p>@Car.AutoName - @Car.Description</p>
+        <div class="badge badge-info ">
+            @Car.Price $
+        </div>
+    </div>
+}
+@code {
+    [Parameter]
+    public DetailViewModel Car { get; set; }
+    [Parameter]
+    public EventCallback<DetailViewModel> CarChanged { get; set; }
+    string imageSrc
+    {
+        get
+        {
+            return $"images/{Car.Image}";
+        }
+    }
+}

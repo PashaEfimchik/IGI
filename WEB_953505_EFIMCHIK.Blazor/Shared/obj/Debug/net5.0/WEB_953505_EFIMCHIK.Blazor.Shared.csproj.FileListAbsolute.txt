@@ -1,0 +1,12 @@
+C:\Users\Павел\Desktop\Labs\5_sem\IGI\LAB_WEB_953505_EFIMCHIK\WEB_953505_EFIMCHIK.Blazor\Shared\bin\Debug\net5.0\WEB_953505_EFIMCHIK.Blazor.Shared.deps.json
+C:\Users\Павел\Desktop\Labs\5_sem\IGI\LAB_WEB_953505_EFIMCHIK\WEB_953505_EFIMCHIK.Blazor\Shared\bin\Debug\net5.0\WEB_953505_EFIMCHIK.Blazor.Shared.dll
+C:\Users\Павел\Desktop\Labs\5_sem\IGI\LAB_WEB_953505_EFIMCHIK\WEB_953505_EFIMCHIK.Blazor\Shared\bin\Debug\net5.0\ref\WEB_953505_EFIMCHIK.Blazor.Shared.dll
+C:\Users\Павел\Desktop\Labs\5_sem\IGI\LAB_WEB_953505_EFIMCHIK\WEB_953505_EFIMCHIK.Blazor\Shared\bin\Debug\net5.0\WEB_953505_EFIMCHIK.Blazor.Shared.pdb
+C:\Users\Павел\Desktop\Labs\5_sem\IGI\LAB_WEB_953505_EFIMCHIK\WEB_953505_EFIMCHIK.Blazor\Shared\obj\Debug\net5.0\WEB_953505_EFIMCHIK.Blazor.Shared.csproj.AssemblyReference.cache
+C:\Users\Павел\Desktop\Labs\5_sem\IGI\LAB_WEB_953505_EFIMCHIK\WEB_953505_EFIMCHIK.Blazor\Shared\obj\Debug\net5.0\WEB_953505_EFIMCHIK.Blazor.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Павел\Desktop\Labs\5_sem\IGI\LAB_WEB_953505_EFIMCHIK\WEB_953505_EFIMCHIK.Blazor\Shared\obj\Debug\net5.0\WEB_953505_EFIMCHIK.Blazor.Shared.AssemblyInfoInputs.cache
+C:\Users\Павел\Desktop\Labs\5_sem\IGI\LAB_WEB_953505_EFIMCHIK\WEB_953505_EFIMCHIK.Blazor\Shared\obj\Debug\net5.0\WEB_953505_EFIMCHIK.Blazor.Shared.AssemblyInfo.cs
+C:\Users\Павел\Desktop\Labs\5_sem\IGI\LAB_WEB_953505_EFIMCHIK\WEB_953505_EFIMCHIK.Blazor\Shared\obj\Debug\net5.0\WEB_953505_EFIMCHIK.Blazor.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Павел\Desktop\Labs\5_sem\IGI\LAB_WEB_953505_EFIMCHIK\WEB_953505_EFIMCHIK.Blazor\Shared\obj\Debug\net5.0\WEB_953505_EFIMCHIK.Blazor.Shared.dll
+C:\Users\Павел\Desktop\Labs\5_sem\IGI\LAB_WEB_953505_EFIMCHIK\WEB_953505_EFIMCHIK.Blazor\Shared\obj\Debug\net5.0\ref\WEB_953505_EFIMCHIK.Blazor.Shared.dll
+C:\Users\Павел\Desktop\Labs\5_sem\IGI\LAB_WEB_953505_EFIMCHIK\WEB_953505_EFIMCHIK.Blazor\Shared\obj\Debug\net5.0\WEB_953505_EFIMCHIK.Blazor.Shared.pdb

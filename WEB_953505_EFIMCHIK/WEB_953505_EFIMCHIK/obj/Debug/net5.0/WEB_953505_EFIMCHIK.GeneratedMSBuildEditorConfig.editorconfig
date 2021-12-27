@@ -6,3 +6,5 @@ build_property.ProjectTypeGuids =
 build_property.PublishSingleFile = 
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
+build_property.RootNamespace = WEB_953505_EFIMCHIK
+build_property.ProjectDir = C:\Users\Павел\Desktop\Labs\5_sem\IGI\LAB_WEB_953505_EFIMCHIK\WEB_953505_EFIMCHIK\WEB_953505_EFIMCHIK\
