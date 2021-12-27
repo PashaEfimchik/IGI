@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.Extensions.Logging;
 using System;
@@ -15,7 +16,7 @@ namespace WEB_953505_EFIMCHIK.Controllers
         public int ListItemValue { get; set; }
         public string ListItemText { get; set; }
     }
-
+    [Authorize]
     public class HomeController : Controller
     {
         private List<ListDemo> _listDemo;

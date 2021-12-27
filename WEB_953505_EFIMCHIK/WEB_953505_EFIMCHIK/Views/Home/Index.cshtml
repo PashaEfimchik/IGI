@@ -1,8 +1,4 @@
 ﻿
-@{
-    ViewData["Title"] = "Main page";
-}
-
 <h1>@ViewData["Text"]</h1>
 <h3>Список</h3>
 <div class="list">
@@ -15,37 +11,37 @@
 </div>
 <div class="dropdown-divider"></div>
 
-<form action="#" class="form" method="POST">
-    
-        <div class="selectList">
-            <select asp-items="@ViewData["Lst"] as SelectList"></select>
-        </div>
-        <div class="checkbox_1">
-            <input type="checkbox" id="checkbox_1" name="first_checkbox" value="desktop">
-            <label for="checkbox_1"> Desktop</label>
-        </div>
-        <div class="checkbox_2">
-            <input type="checkbox" id="checkbox_2" name="second_checkbox" value="phone">
-            <label for="checkbox_2"> Phone</label>
-        </div>
+<form action="#" class="form" method="GET">
 
-        <div class="radio">
-            <input type="radio" id="choice_1" name="choice" value="low">
-            <label for="choice_1">Low</label>
-            <input type="radio" id="choice_2" name="choice" value="medium">
-            <label for="choice_2">Medium</label>
-            <input type="radio" id="choice_3" name="choice" value="high">
-            <label for="choice_3">High</label>
-        </div>
+    <div class="selectList">
+        <select asp-items="@ViewData["Lst"] as SelectList"></select>
+    </div>
+    <div class="checkbox_1">
+        <input type="checkbox" id="checkbox_1" name="first_checkbox" value="desktop">
+        <label for="checkbox_1"> Desktop</label>
+    </div>
+    <div class="checkbox_2">
+        <input type="checkbox" id="checkbox_2" name="second_checkbox" value="phone">
+        <label for="checkbox_2"> Phone</label>
+    </div>
 
-        <div class="login">
-            <label for="userName">Login: </label>
-            <input id="userName" type="text" name="login" placeholder="Input Login">
-        </div>
-        <div class="password">
-            <label for="userPassword">Password: </label>
-            <input id="userPassword" type="password" name="password" placeholder="Input Password">
-        </div>
+    <div class="radio">
+        <input type="radio" id="choice_1" name="choice" value="low">
+        <label for="choice_1">Low</label>
+        <input type="radio" id="choice_2" name="choice" value="medium">
+        <label for="choice_2">Medium</label>
+        <input type="radio" id="choice_3" name="choice" value="high">
+        <label for="choice_3">High</label>
+    </div>
+
+    <div class="login">
+        <label for="userName">Login: </label>
+        <input id="userName" type="text" name="login" placeholder="Input Login">
+    </div>
+    <div class="password">
+        <label for="userPassword">Password: </label>
+        <input id="userPassword" type="password" name="password" placeholder="Input Password">
+    </div>
 
     <div class="btn_submit">
         <button type="submit">Отправить <i class="fa fa-paper-plane"></i></button>

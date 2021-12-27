@@ -5,7 +5,7 @@
 @if (signInManager.IsSignedIn(User))
 {
     @await Component.InvokeAsync("Cart")
-    <div class="dropdown ml-4 nav-color">
+    <div class="dropdown ml-4 nav-color" style="position: relative; left: 1100px;">
         <div class="dropdown-toggle" id="dropdownMenuButton"
              data-toggle="dropdown" aria-haspopup="true"
              aria-expanded="false">
@@ -30,13 +30,13 @@ else
         <li>
             <a class="nav-item nav-link" asp-area="Identity"
                asp-page="/Account/Login">
-                Login
+                Войти
             </a>
         </li>
         <li>
             <a class="nav-item nav-link" asp-area="Identity"
                asp-page="/Account/Register">
-                Sign in
+                Зарегистрироваться
             </a>
         </li>
     </ul>

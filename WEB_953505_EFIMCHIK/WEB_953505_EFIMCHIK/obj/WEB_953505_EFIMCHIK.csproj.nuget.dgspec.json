@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Павел\\Desktop\\Labs\\5_sem\\IGI\\WEB_953505_EFIMCHIK\\WEB_953505_EFIMCHIK\\WEB_953505_EFIMCHIK.csproj": {}
+    "C:\\Users\\Павел\\Desktop\\Labs\\5_sem\\IGI\\LAB_WEB_953505_EFIMCHIK\\WEB_953505_EFIMCHIK\\WEB_953505_EFIMCHIK\\WEB_953505_EFIMCHIK.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Павел\\Desktop\\Labs\\5_sem\\IGI\\WEB_953505_EFIMCHIK\\WEB_953505_EFIMCHIK\\WEB_953505_EFIMCHIK.csproj": {
+    "C:\\Users\\Павел\\Desktop\\Labs\\5_sem\\IGI\\LAB_WEB_953505_EFIMCHIK\\WEB_953505_EFIMCHIK\\WEB_953505_EFIMCHIK\\WEB_953505_EFIMCHIK.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Павел\\Desktop\\Labs\\5_sem\\IGI\\WEB_953505_EFIMCHIK\\WEB_953505_EFIMCHIK\\WEB_953505_EFIMCHIK.csproj",
+        "projectUniqueName": "C:\\Users\\Павел\\Desktop\\Labs\\5_sem\\IGI\\LAB_WEB_953505_EFIMCHIK\\WEB_953505_EFIMCHIK\\WEB_953505_EFIMCHIK\\WEB_953505_EFIMCHIK.csproj",
         "projectName": "WEB_953505_EFIMCHIK",
-        "projectPath": "C:\\Users\\Павел\\Desktop\\Labs\\5_sem\\IGI\\WEB_953505_EFIMCHIK\\WEB_953505_EFIMCHIK\\WEB_953505_EFIMCHIK.csproj",
+        "projectPath": "C:\\Users\\Павел\\Desktop\\Labs\\5_sem\\IGI\\LAB_WEB_953505_EFIMCHIK\\WEB_953505_EFIMCHIK\\WEB_953505_EFIMCHIK\\WEB_953505_EFIMCHIK.csproj",
         "packagesPath": "C:\\Users\\Павел\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Павел\\Desktop\\Labs\\5_sem\\IGI\\WEB_953505_EFIMCHIK\\WEB_953505_EFIMCHIK\\obj\\",
+        "outputPath": "C:\\Users\\Павел\\Desktop\\Labs\\5_sem\\IGI\\LAB_WEB_953505_EFIMCHIK\\WEB_953505_EFIMCHIK\\WEB_953505_EFIMCHIK\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Павел\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -65,6 +65,10 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[5.0.2, )"
+            },
+            "Serilog.Extensions.Logging.File": {
+              "target": "Package",
+              "version": "[2.0.0, )"
             }
           },
           "imports": [

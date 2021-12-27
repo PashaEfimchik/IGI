@@ -1,7 +1,11 @@
 ﻿@model Auto
 
 <div class='card m-2 p-1 text-center col-4'>
-    <img src="~/images/@Model.Image" alt="NoImage" class="card-img-top" />
+    <div class="embed-responsive embed-responsive-1by1">
+        <img src="~/images/@Model.Image"
+             alt="NoImage"
+             class="card-img-top embed-responsive-item" />
+    </div>
     <div class="card-body">
         <h5 class="card-title">
             @Model.AutoName

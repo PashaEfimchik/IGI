@@ -1,1 +1,8 @@
-﻿<a asp-controller="Cart" asp-action="Index" class="navbar-text" ml-auto> 00,0 BYN <i class="fa fa-shopping-cart"></i> (0)</a>
+﻿@model Cart
+<a asp-controller="Cart"
+   asp-action="Index"
+   class="navbar-text" ml-auto>
+    @Model.Price $
+    <i class="fa fa-shopping-cart"></i>
+    (@Model.Count)
+</a>
